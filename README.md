@@ -5,7 +5,9 @@ This is a SPSS Python macro that takes a group of continuous variables and then 
 3. Univariate histograms  
 4. Bivariate scatterplots  
 5. Univariate missingness  
-6. Patterns of missing data  
+6. Patterns of missing data
+
+This and other SPSS Python Extension functions can be found at http://www.stat-help.com/python.html
 
 ## Usage
 **exploreDistributions(varList)**
@@ -16,5 +18,3 @@ This is a SPSS Python macro that takes a group of continuous variables and then 
 * This would provide descriptive statistics, histograms, and reports of missing values for each of the three variables in the list. 
 * It would then provide a correlation matrix and a scatterplot matrix examining the bivariate distributions. 
 * It would then provide an analysis of missing data patterns found among the variables.
-
-This and other SPSS Python Extension functions can be found at http://www.stat-help.com/python.html
