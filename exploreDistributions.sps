@@ -20,7 +20,7 @@
 * matrix examining the bivariate distributions. It would then provide an analysis of missing
 * data patterns found among the variables.
 
-begin program python.
+BEGIN PROGRAM PYTHON3.
 import spss
 
 def exploreDistributions(varList):
@@ -54,7 +54,7 @@ BEGIN GPL
   ELEMENT: interval(position(summary.count(bin.rect({0}))), 
     shape.interior(shape.square))
 END GPL.""".format(var)
-        print submitstring
+        print(submitstring)
         spss.Submit(submitstring)
 
 # Scatterplot matrix
@@ -89,7 +89,7 @@ BEGIN GPL
             submitstring += '+{0}/{0}_label'.format(var)
     submitstring += """)))
 END GPL."""
-    print submitstring
+    print(submitstring)
     spss.Submit(submitstring)
     
 # Missing values analysis
